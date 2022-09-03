@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    background-color: #000;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-image: url(./Call_of_duty_warzone_mobile.jpg);
+    background-size: 100% 100%;
+    object-fit: contain;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    /* position: sticky; */
+}
+
+.left_nav {
+    display: flex;
+}
+
+.ul1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul1 li {
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+    font-size: 14px;
+    /* border: 2px solid red; */
+}
+
+.ul2 li {
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+    font-size: 14px;
+    /* border: 2px solid red; */
+}
+
+.ul2 button a {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(160, 155, 155);
+}
+
+.logo {
+    /* border: 2px solid red; */
+    height: 55px;
+    width: 150px;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 23px;
+}
+
+
+.right_nav {
+    display: flex;
+
+}
+
+.ul2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 120px; */
+    /* border: 2px solid red; */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.box1 {
+    width: 180px;
+    height: 190px;
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-left: 203px;
+    margin-top: 50px;
+    background-color: rgb(20, 20, 20);
+    ;
+    transform: translateY(-400px);
+}
+
+.box2 {
+    width: 200px;
+    height: 170px;
+    /* border: 2px solid blue; */
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 50px;
+    background-color: rgb(20, 20, 20);
+    ;
+    transform: translateY(-400px);
+}
+
+.box3 {
+    width: 180px;
+    height: 190px;
+    /* border: 2px solid green; */
+    position: absolute;
+    margin-left: 605px;
+    margin-top: 50px;
+    background-color: rgb(20, 20, 20);
+    ;
+    transform: translateY(-400px);
+
+}
+
+.ul2 button {
+    margin-left: 60px;
+    height: 50px;
+    width: 170px;
+    border: none;
+    background-color: rgb(48, 132, 48);
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.ul1 i {
+    transition: 0.5s;
+}
+
+.mycod {
+    /* border: 2px solid red; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.mycod a {
+    transition: 03.s;
+}
+
+.login a {
+    transition: 0.5s;
+}
+
+.ul3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.ul3 li {
+    margin-top: 18px;
+
+}
+
+.ul3 h4 {
+    color: rgb(160, 155, 155);
+    transition: 0.5s;
+}
+
+.ul1 .shop {
+    /* border: 2px solid red; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+
+}
+
+.ul4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.ul4 li {
+    margin-top: 20px;
+}
+
+.ul4 h4 {
+    color: rgb(160, 155, 155);
+    transition: 0.5s;
+}
+
+.ul5 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.ul5 li {
+    margin-top: 17px;
+}
+
+.ul5 h4 {
+    color: rgb(160, 155, 155);
+    transition: 0.5s;
+}
+
+.esports {
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.banner {
+    background-color: #000;
+}
+
+
+.banner_text {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.cod {
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 100px;
+    /* margin-bottom: 100px; */
+}
+
+
+
+.mw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+    width: 400px;
+    height: 200px;
+    /* margin-bottom: 90px; */
+}
+
+.mw h2 {
+    color: #fff;
+}
+
+.mwII {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: #fff; */
+    width: 400px;
+    height: 180px;
+    /* border: 2px solid red; */
+
+}
+
+.mwII span {
+    color: rgb(48, 132, 48);
+}
+
+.mwII h1 {
+    color: #fff;
+    font-size: 150px;
+    /* margin-bottom: 60px; */
+}
+
+.trailer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.trailer h1 {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.trailer button {
+    width: 170px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.trailer button:nth-child(2) {
+    margin-left: 20px;
+}
+
+.knopki button a {
+    color: rgb(36, 32, 32);
+    font-size: 16px;
+}
+
+.banner_rasmlar {
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 100vh; */
+    /* border:2px solid red; */
+
+}
+
+.banner_rasmlar img {
+    width: 447px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.chast_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chast_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.over_kerak {
+    overflow: hidden;
+}
+
+.chiziq {
+    width: 100%;
+    height: 80px;
+    border-top: 2px solid rgb(23, 23, 23);
+    margin-top: 40px;
+}
+
+.chiziq_2 {
+    width: 100%;
+    height: 80px;
+    border-top: 2px solid rgb(23, 23, 23);
+    margin-top: 90px;
+}
+
+.banner_getgames {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.versions_of_games {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.versions_of_games img {
+    width: 250px;
+    height: 270px;
+}
+
+.zagalovok {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 60px;
+    /* border: 2px solid red; */
+}
+
+.zagalovok h1 {
+    color: rgb(158, 153, 153);
+    font-size: 25px;
+}
+.versions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.versions:nth-child(1){
+    border: 1px solid green;
+}
+.versions:nth-child(2){
+    border: 1px solid rgb(217, 255, 0);
+}
+.versions:nth-child(3){
+    border: 1px solid #fff;
+}
+.versions:nth-child(4){
+    border: 1px solid rgb(255, 234, 0);
+}
+
+.versions h3{
+    color: #fff;
+    font-size: 18px;
+}
+
+.banner_disclaimer{
+    /* border: 2px solid red;s */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.banner_disclaimer img{
+    /* border: 2px solid red; */
+    width: 1170px;
+    /* cursor: pointer; */
+}
+
+
+
+
+
+
+/* HOVER */
+
+.banner_rasmlar img:hover {
+    transform: scale(1.1);
+}
+
+
+.logo:hover {
+    background-color: #000;
+}
+
+.games:hover {
+    background-color: #000;
+}
+
+.games:hover a {
+    color: rgb(89, 182, 89);
+    ;
+}
+
+.ul5 li:hover h4 {
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.esports:hover {
+    background-color: #000;
+}
+
+.esports:hover a {
+    color: rgb(89, 182, 89);
+    ;
+}
+
+.news:hover a {
+    color: rgb(89, 182, 89);
+    ;
+}
+
+.support:hover a {
+    color: rgb(89, 182, 89);
+}
+
+.ul4 li:hover h4 {
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.shop:hover {
+    background-color: #000;
+}
+
+.shop:hover a {
+    color: rgb(89, 182, 89);
+    ;
+}
+
+.ul3 li:hover h4 {
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.ul1>li:hover i {
+    transform: rotate(180deg);
+}
+
+.mycod:hover {
+    background-color: #000;
+}
+.mycod:hover a{
+    color: #fff;
+}
+
+
+.login:hover a {
+    color: #fff;
+}

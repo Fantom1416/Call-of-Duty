@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    background-color: #000;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: absolute; */
+    /* position: sticky; */
+}
+
+.left_nav {
+    display: flex;
+    /* border: 2px solid blue; */
+    margin-right: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+.ul1 li {
+    list-style-type: none;
+    padding: 23px;
+    display: flex;
+    font-size: 14px;
+    /* border: 2px solid red; */
+}
+
+.ul2 li {
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+    font-size: 14px;
+    /* border: 2px solid red; */
+}
+
+.ul2 button a {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(160, 155, 155);
+}
+
+.logo {
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 23px;
+}
+
+
+.right_nav {
+    display: flex;
+
+}
+
+.ul2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 120px; */
+    /* border: 2px solid red; */
+}
+
+.right_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    margin-left: 80px;
+}
+
+.ul2 button {
+    margin-left: 60px;
+    height: 50px;
+    width: 170px;
+    border: none;
+    background-color: rgb(48, 132, 48);
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.ul1 i {
+    transition: 0.5s;
+}
+
+.mycod {
+    /* border: 2px solid red; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.mycod a {
+    transition: 03.s;
+}
+.login{
+    cursor: pointer;
+}
+.login a {
+    transition: 0.2s;
+}
+.league{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.support{
+    transition: 1.2s;
+}
+.news{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    /* border: 2px solid red; */
+    width: 500px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.box h1 {
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.inputi {
+    /* border: 2px solid red; */
+    /* transform: translateY(-70px); */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+
+.inputi input {
+    width: 300px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+}
+
+.inputi button {
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 30px;
+    background-color: rgb(20, 20, 20);
+    color: rgb(107, 202, 234);
+    transition: 0.3s;
+}
+.inputi button a{
+    color: rgb(107, 202, 234);
+}
+
+.parol {
+    margin-top: 15px;
+}
+
+.zagalovok {
+    /* border: 2px solid blue; */
+    border: none;
+}
+
+.platforms {
+    /* border: 2px solid red; */
+    height: 130px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ployka {
+    border-left: 4px solid rgb(19, 72, 248);
+    /* border-top-left-radius: 5px; */
+    /* border-bottom-left-radius: 5px; */
+    /* padding: 5px; */
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(25, 26, 28);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.platforms img {
+    /* /* border-left: 4px solid red;
+    border-top-left-radius: 3px ;
+    border-bottom-left-radius: 3px ; */
+    padding: 15px;
+}
+
+.container2 {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container2 h1 {
+    color: #fff;
+    font-size: 20px;
+    /* padding: 10px; */
+    /* margin-bottom: 50px; */
+    transform: translateY(-330px);
+    position: absolute;
+}
+
+/* HOVER */
+
+
+.logo:hover{
+    background-color: #000;
+}
+
+.news:hover a{
+    color: #fff;
+}
+.news:hover{
+    background-color: rgba(255, 255, 255, 0.091);
+    cursor: pointer;
+}
+
+
+.league:hover a{
+    color: #fff;
+}
+.league:hover{
+    background-color: rgba(255, 255, 255, 0.091);
+    cursor: pointer;
+}
+
+
+.support:hover{
+    cursor: pointer;
+}
+
+.support:hover a{
+color: #fff;
+}
+
+.login:hover a{
+    color: #fff;
+}
+.mycod:hover a{
+    color: #fff;
+}
+.mycod:hover{
+    background-color: rgba(255, 255, 255, 0.091);
+    cursor: pointer;
+}
+
+
+.inputi button:hover a{
+    color: rgb(181, 248, 255);
+}
+
+.inputi button:hover{
+    border-top: 2px solid rgb(128, 234, 246);
+    border-bottom: 2px solid rgb(128, 234, 246);
+    color: rgb(181, 248, 255);
+}
+
+.ployka:hover{
+    background-color: rgb(19, 72, 248);;
+}
