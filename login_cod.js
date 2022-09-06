@@ -19,6 +19,6 @@ function Signin(e) {
 console.log(Input1.value)
 console.log(Input2.value)
 
-localStorage.setItem("name", "Bobir")
-localStorage.setItem("Lastname", "Temirov")
+localStorage.setItem("name", "Axmadbek")
+localStorage.setItem("Lastname", "123123123")
 }
